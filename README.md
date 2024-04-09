@@ -1,7 +1,8 @@
 
 # RISC-V compiler (windows)
 
-https://gnutoolchains.com/risc-v/
+* Install the RISC-V compiler from  https://gnutoolchains.com/risc-v/
+* Edit test/Makefile to change 'PREFIX'
 
 # Example run
 
