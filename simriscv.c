@@ -38,7 +38,7 @@ static void hook_instruction (uc_engine *uc, uint64_t address, uint32_t size, vo
     cs_insn *insn;
     show_registers_change();
     int count = cs_disasm(handle, code_buffer+address, size, address, 1, &insn);
-    if (count == 1> 0) {
+    if (count == 1) {
         printf("0x%08"PRIx64":\t%s\t\t%s\n", insn[0].address, insn[0].mnemonic, insn[0].op_str);
         cs_free(insn, count);
     }

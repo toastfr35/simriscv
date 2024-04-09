@@ -1,3 +1,10 @@
+
+# RISC-V compiler (windows)
+
+https://gnutoolchains.com/risc-v/
+
+# Example run
+
 ```
 ./simriscv.exe test/test.bin
 
